@@ -1,1 +1,1 @@
-# pluralsight-practicle-html5
+# pluralsight-practical-html5
