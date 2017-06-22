@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head></head>
+<head>
+    <title>Welcome to Joe's Coffee Shop</title>
+    <link href="styles/layout.css" rel="stylesheet" />
+</head>
 <body>
-    <header>
+    <header id="mainHeader">
         <div>
             <a class="headerlogo" href="index.html">
                 <img src="images/logo.png" />
             </a>
             <span id="headername">Joe's Coffee Store</span>
+            <input type="search" class="searchbox" placeholder="Search our store" />
         </div>
     </header>
 
+    <div id="welcomeimage">
+        <img src="images/coffeeheader.jpg" />
+    </div>
+    <div id="coffeeofthemonth">
+        <img src="images/cotm.jpg" />
+    </div>
     <section id="welcometext">
         <header>Welcome to Joe's Coffee Store!</header>
         <span>
@@ -83,7 +93,7 @@
                     <img class="productarticlethumbnail" src="images/coffee/coffee1.jpg" />
                 </figure>
                 <header>
-                    <span class="productarticlename"><a href="coffeedetails.html">Coffee 1</a></span>
+                    <span class="productarticlename"><a href="coffeedetails.html">Accessory 1</a></span>
                 </header>
                 <p class="productarticleprice">$10</p>
                 <div class="addtocartbutton">
@@ -95,7 +105,7 @@
                     <img class="productarticlethumbnail" src="images/coffee/coffee1.jpg" />
                 </figure>
                 <header>
-                    <span class="productarticlename"><a href="coffeedetails.html">Coffee 2</a></span>
+                    <span class="productarticlename"><a href="coffeedetails.html">Accessory 2</a></span>
                 </header>
                 <p class="productarticleprice">$10</p>
                 <div class="addtocartbutton">
@@ -107,7 +117,7 @@
                     <img class="productarticlethumbnail" src="images/coffee/coffee1.jpg" />
                 </figure>
                 <header>
-                    <span class="productarticlename"><a href="coffeedetails.html">Coffee 3</a></span>
+                    <span class="productarticlename"><a href="coffeedetails.html">Accessory 3</a></span>
                 </header>
                 <p class="productarticleprice">$10</p>
                 <div class="addtocartbutton">
@@ -118,7 +128,7 @@
     </section>
 
     <footer>
-        <p>OUr address is <address>123 W 123rd St.</address></p>
+        <p>Our address is <address>123 W 123rd St.</address></p>
         <p class="textcontent">All site contents copyright <a href="index.html">Joe's Coffee Shop</a></p>
         <p class="smalltext">This page generated on <time>09:22:10.123</time>.</p>
     </footer>
