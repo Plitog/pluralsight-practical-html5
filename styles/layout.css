@@ -284,3 +284,8 @@ footer {
     padding-top: 15px;
 }
 */
+
+.textlabel {
+    display: inline-block;
+    width: 200px;
+}
